@@ -1,0 +1,55 @@
+2019-01-03 10:19:35.486 DEBUG 18368 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-01-03 10:19:35.499 DEBUG 18368 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-01-03 10:19:35.500 DEBUG 18368 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-01-03 10:19:35.500 DEBUG 18368 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-01-03 10:19:35.501 DEBUG 18368 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-01-03 10:19:35.501 DEBUG 18368 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-01-03 10:19:35.568  INFO 18368 --- [restartedMain] com.sangxj.demos.DemosApplication        : Starting DemosApplication on DESKTOP-0BMIQ68 with PID 18368 (C:\Users\coinko\Desktop\demos\target\classes started by coinko in C:\Users\coinko\Desktop\demos)
+2019-01-03 10:19:35.569  INFO 18368 --- [restartedMain] com.sangxj.demos.DemosApplication        : The following profiles are active: dev
+2019-01-03 10:19:35.617  INFO 18368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 10:19:35.617  INFO 18368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 10:19:37.020  INFO 18368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8098 (http)
+2019-01-03 10:19:37.044  INFO 18368 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-03 10:19:37.046  INFO 18368 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 10:19:37.054  INFO 18368 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python27;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Users\coinko\gradle-4.10.2\bin;C:\Users\coinko\AppData\Roaming\npm;C:\Users\coinko\AppData\Local\Microsoft\WindowsApps;C:\Users\coinko\AppData\Roaming\npm;C:\Users\coinko\AppData\Local\Programs\Microsoft VS Code\bin;.]
+2019-01-03 10:19:37.169  INFO 18368 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-03 10:19:37.169 DEBUG 18368 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-01-03 10:19:37.170  INFO 18368 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1553 ms
+2019-01-03 10:19:37.267 DEBUG 18368 --- [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-01-03 10:19:37.268 DEBUG 18368 --- [restartedMain] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-01-03 10:19:37.275 DEBUG 18368 --- [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-01-03 10:19:37.277 DEBUG 18368 --- [restartedMain] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-01-03 10:19:37.278 DEBUG 18368 --- [restartedMain] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-01-03 10:19:37.279 DEBUG 18368 --- [restartedMain] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-01-03 10:19:37.280 DEBUG 18368 --- [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-01-03 10:19:37.281 DEBUG 18368 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2019-01-03 10:19:37.282 DEBUG 18368 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2019-01-03 10:19:37.282 DEBUG 18368 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-01-03 10:19:37.282 DEBUG 18368 --- [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2019-01-03 10:19:37.289 DEBUG 18368 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-01-03 10:19:37.289 DEBUG 18368 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-01-03 10:19:37.289 DEBUG 18368 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-01-03 10:19:37.289 DEBUG 18368 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-01-03 10:19:37.291 DEBUG 18368 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-01-03 10:19:37.322 DEBUG 18368 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-01-03 10:19:37.442  INFO 18368 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 10:19:37.455 DEBUG 18368 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-01-03 10:19:37.519 DEBUG 18368 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2019-01-03 10:19:37.529 DEBUG 18368 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-01-03 10:19:37.540 DEBUG 18368 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-01-03 10:19:37.644  INFO 18368 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-03 10:19:37.695  INFO 18368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8098 (http) with context path ''
+2019-01-03 10:19:37.699  INFO 18368 --- [restartedMain] com.sangxj.demos.DemosApplication        : Started DemosApplication in 2.573 seconds (JVM running for 3.832)
+2019-01-03 10:20:05.150  INFO 18368 --- [http-nio-8098-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 10:20:05.151  INFO 18368 --- [http-nio-8098-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-03 10:20:05.152 DEBUG 18368 --- [http-nio-8098-exec-3] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-01-03 10:20:05.159 DEBUG 18368 --- [http-nio-8098-exec-3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-01-03 10:20:05.159  INFO 18368 --- [http-nio-8098-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-01-03 10:20:05.178 DEBUG 18368 --- [http-nio-8098-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/Hello", parameters={}
+2019-01-03 10:20:05.287 DEBUG 18368 --- [http-nio-8098-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public com.sangxj.demos.vo.RestResult com.sangxj.demos.controller.Hello.Hello()
+2019-01-03 10:20:05.383 DEBUG 18368 --- [http-nio-8098-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-01-03 10:20:05.384 DEBUG 18368 --- [http-nio-8098-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [RestResult{code=0, data=hello, message='null'}]
+2019-01-03 10:20:05.411 DEBUG 18368 --- [http-nio-8098-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-01-03 10:20:05.505 DEBUG 18368 --- [http-nio-8098-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2019-01-03 10:20:05.507 DEBUG 18368 --- [http-nio-8098-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+2019-01-03 10:20:05.526 DEBUG 18368 --- [http-nio-8098-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
