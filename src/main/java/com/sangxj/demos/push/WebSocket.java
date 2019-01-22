@@ -14,8 +14,6 @@ public class WebSocket {
 
     private Logger LOGGER = LoggerFactory.getLogger(WebSocket.class);
 
-    private static String userId;
-
     @OnOpen
     public void onOpen(Session session){
         LOGGER.debug("新连接");
