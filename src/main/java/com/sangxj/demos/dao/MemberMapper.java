@@ -8,11 +8,7 @@ import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
-/**
- * @描述:
- * @创建人 coinko
- * @创建时间 2019/1/3
- */
+
 @Mapper
 public interface MemberMapper extends BaseMapper<Member> {
     List<DemosVO> selectInit();

@@ -23,11 +23,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.*;
 
-/**
- * @描述:
- * @创建人 coinko
- * @创建时间 2019/1/3
- */
+
 @RestController
 @RequestMapping(value = "/test", produces = "application/json;charset=utf-8")
 @Api(description = "Test")

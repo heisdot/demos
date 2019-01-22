@@ -4,11 +4,7 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import lombok.Data;
 
-/**
- * @描述: 会员
- * @创建人 coinko
- * @创建时间 2019/1/3
- */
+
 @Data
 public class Member extends Model<Member> {
     @TableId(value = "member_id")
