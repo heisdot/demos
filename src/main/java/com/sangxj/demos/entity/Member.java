@@ -9,10 +9,9 @@ import lombok.Data;
 public class Member extends Model<Member> {
     @TableId(value = "member_id")
     private Long memberId;
-    private Integer no;
-    private Integer groupId;
-    private String nickname;
-    private String realname;
+    private Integer memberNo;
+    private String nick;
+    private String name;
     private String telephone;
     private String address;
 }

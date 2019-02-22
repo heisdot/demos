@@ -10,6 +10,7 @@ import com.sangxj.demos.utils.SnowflakeIdWorker;
 import com.sangxj.demos.vo.RestResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,12 +25,11 @@ import java.time.temporal.ChronoUnit;
 import java.util.*;
 
 
+@Slf4j
 @RestController
 @RequestMapping(value = "/test", produces = "application/json;charset=utf-8")
 @Api(description = "Test")
 public class MemberController {
-
-    private Logger LOGGER = LoggerFactory.getLogger(MemberController.class);
 
     @Value("${workerId}")
     private long workerId;
@@ -47,7 +47,7 @@ public class MemberController {
     public RestResult testMybatisPlus() {
         Member member = new Member();
         member.setMemberId(new SnowflakeIdWorker(workerId, dataCenterId).nextId());
-        member.setNickname("测试号");
+        member.setNick("测试号");
         member.setAddress("湖南郴州");
         member.setTelephone("15899790993");
         memberMapper.insert(member);
@@ -170,7 +170,16 @@ public class MemberController {
     public RestResult testActiveRecord() {
         Member member = new Member();
         IPage<Member> memberPage = member.selectPage(new Page<>(1, 10), new QueryWrapper<>());
-        LOGGER.info(memberPage.toString());
+        log.info(memberPage.toString());
+        return new RestResult(memberPage);
+    }
+
+    //测试IService方式
+    @GetMapping(value = "testIService")
+    @ApiOperation(value = "测试IService方式")
+    public RestResult testIService() {
+        IPage<Member> memberPage = memberService.page(new Page<>(1, 10), new QueryWrapper<>());
+        log.info(memberPage.toString());
         return new RestResult(memberPage);
     }
 
